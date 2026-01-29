@@ -1,4 +1,4 @@
-## Parte 5 do Curso: Spring Boot Expert: JPA, REST, JWT, OAuth2 com Docker e AWS
+## Parte do Curso: Spring Boot Expert: JPA, REST, JWT, OAuth2 com Docker e AWS
 Aqui estão apresentados os códigos usados durante a realização do curso da plataforma Udemy com nome mencionado acerca de uma sessão: Desenvolvimento de API's RestFul.
 
 <hr></hr>
