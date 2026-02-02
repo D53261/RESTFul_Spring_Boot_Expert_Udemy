@@ -25,12 +25,15 @@ Cada parte do projeto é interligada para dar vida a transição de dados entre 
 Para evitar expor diretamente as entidades do banco de dados, utilizamos DTOs para transferir dados entre a camada de controle e o cliente. Isso ajuda a manter a segurança e a integridade dos dados.
 
 ## 4. Contratos de API
-Aprendemos sobre como funciona a implementação de API's em um ambiente real de desenvolvimento, precisando seguir padrões especificos (como as mensagens referentes a erros no Response da operação) para que o cliente consiga interpretar corretamente as respostas da API.
+Aprendemos sobre como funciona a implementação de API's em um ambiente real de desenvolvimento, precisando seguir padrões especificos (como as mensagens referentes a erros no Response da operação) para que o cliente consiga interpretar corretamente as respostas da API, sendo um dos tópicos mais importantes por se tratar de práticas para o trabalho real.
 
 ## 5. Tratamento de Exceções
-Seguimos os padrões de contrato para tratar os erros como devem ser, criando DTO's que representam as partes da mensagem final, criamos exceções personalizadas como RegistroDuplicadoEsception.java, utilizamos try cacth para receber o erro, usamos classes personalizadas para verificações minuciosas (AutorValidator.java) e criamos as mensagens com base em seus DTO's, melhorando a experiência do usuário.
+Seguimos os padrões de contrato para tratar os erros como devem ser, criando DTO's que representam as partes da mensagem final, criamos exceções personalizadas como RegistroDuplicadoException.java, utilizamos try catch para receber o erro, usamos classes personalizadas para verificações minuciosas (AutorValidator.java) e criamos as mensagens com base em seus DTO's, melhorando a experiência do usuário.
 
-## 6. Configurações
+## 6. Protocolo HTTP
+Um famoso protocolo usado em sites e aplicações de diversos tipos para comunicação entre cliente e servidor, utilizando do comentados Verbos HTTP para realizar as Requests por parte do cliente (pedidos para que a API retorne uma informação) e Responses por parte do servidor (resposta aos pedidos do cliente vindas do servidor).
+
+## 7. Configurações
 A pasta de config contém classes e arquivos responsáveis por configurar aspectos essenciais do projeto, como conexão com o banco de dados, propriedades do JPA, e outras definições globais.
 
 ### Exemplo de configurações comuns:
